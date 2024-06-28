@@ -14,13 +14,9 @@
     <div class="container my-3">
         <h1 class="text-center my-2">Welcome in Laravel Comics</h1>
         <h2>Gli studenti sono:</h2>
-        <ul>
-            @foreach ($studenti as $studente)
-                <li>{{ $studente }}</li>
-            @endforeach
-        </ul>
 
-        <div class="row ">
+
+        <div class="row">
             @foreach ($comics as $comic)
                 <div class="card" style="width: 15rem;">
                     <img class="card-img-top" src="{{ $comic['thumb'] }}" alt="">
