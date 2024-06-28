@@ -13,7 +13,7 @@
 
     <div class="container my-3">
         <h1 class="text-center my-2">Welcome in Laravel Comics</h1>
-        <h2>Gli studenti sono:</h2>
+        <h2>I fumetti disaponibili sono:</h2>
 
 
         <div class="row">
